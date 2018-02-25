@@ -1,0 +1,204 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:minecraft.png",
+            "posX" : -128,
+            "posY" : -65,
+            "width" : 256,
+            "height" : 256,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+		"singleplayer":
+        {
+            "text" : "",
+            "tooltip" : "Singleplayer",
+			"posX" : -72,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:singleplayer.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+		"Multiplayer":
+        {
+            "text" : "",
+            "tooltip" : "Multiplayer",
+			"posX" : -47,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:multiplayer.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+			}
+        },
+		"options":
+        {
+            "text" : "",
+            "tooltip" : "Options Menu",
+			"posX" : -22,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:options.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+			}
+        },
+		"mods":
+        {
+            "text" : "",
+            "tooltip" : "Mods Menu",
+			"posX" : 3,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:mods.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+			}
+        },
+		"discord":
+        {
+            "text" : "",
+            "tooltip" : "PRIMAL Discord",
+			"posX" : 28,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:discord.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/YGtcVhJ"
+			}
+        },
+        "quit":
+        {
+            "text" : "",
+            "tooltip" : "Quit Game",
+			"posX" : 53,
+            "posY" : 75,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:quit.png",
+            "imageHeight": "80",
+			"imageWidth": "80",
+			"action" : 
+            {
+                "type" : "quit"
+			}
+        }
+    },
+    
+    "labels":
+    {
+        "modpack":
+        {
+            "text" : "PRIMAL by Krhymez",
+			"hoverText" : "§nPRIMAL by Krhymez",
+            "posX" : 3,
+            "posY" : -31,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+			"alignment" : "bottom_left",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "http://www.curseforge.com/minecraft/modpacks/primal/"
+            }
+		},	
+		"mojang":{
+            "text" : "Copyright Mojang AB",
+            "hoverText" : "§nCopyright Mojang AB",
+            "posX" : -65,
+            "posY" : -7,
+			"fontSize" : .6,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "minecraft":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -25,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"forge":{
+			"text" : "Forge #forgeversion#",
+            "posX" : 3,
+            "posY" : -19,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 3,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 3,
+            "posY" : -7,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "mainmenu:background.png",
+			"mode" : "stretch"
+        }
+    }
+}

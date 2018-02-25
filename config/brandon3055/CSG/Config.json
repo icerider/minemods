@@ -1,0 +1,15 @@
+{
+  "inventory": {
+    "0:8": "modcurrency:wallet,1,1,{inventory:{Size:36,Items:[{Slot:18,id:\"modcurrency:banknote\",Count:1b,Damage:0s},{Slot:19,id:\"modcurrency:banknote\",Count:1b,Damage:1s},{Slot:20,id:\"modcurrency:banknote\",Count:1b,Damage:2s},{Slot:21,id:\"modcurrency:banknote\",Count:1b,Damage:3s},{Slot:22,id:\"modcurrency:banknote\",Count:1b,Damage:4s},{Slot:23,id:\"modcurrency:banknote\",Count:1b,Damage:5s}]},full:1}",
+    "1:2": "minecraft:leather_chestplate,1,0,{display:{color:16383998}}",
+    "0:3": "mca:crystal_ball",
+    "0:5": "harvestcraft:beefjerkyitem",
+    "1:1": "minecraft:leather_leggings,1,0,{display:{color:3949738}}",
+    "0:6": "toughasnails:fruit_juice,1,1,{RepairCost:0,display:{Name:\"MacGMania's Huckleberry Juice\"}}",
+    "0:4": "harvestcraft:snickersbaritem",
+    "0:7": "roughtweaks:bandage",
+    "0:34": "astralsorcery:itemjournal",
+    "0:35": "modcurrency:guidebook",
+    "1:0": "minecraft:leather_boots,1,0,{display:{color:5388586}}"
+  }
+}
