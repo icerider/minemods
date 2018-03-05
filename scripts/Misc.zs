@@ -1,16 +1,4 @@
 ////////////////////////////////////////////////////////////////
-//Economy Bill
-recipes.addShaped(<modcurrency:banknote>, 
-	[[null, <minecraft:paper>, null],
-	[null, <primal:diamond_knapp>, null],
-	[null, <minecraft:paper>, null]]);
-///////////////////////////////////////////////////////////////
-//Tri Torch
-recipes.addShaped(<stevescarts:modulecomponents:29>, 
-	[[null, null, null],
-	[<primal:torch_wood_lit>, <primal:torch_wood_lit>, <primal:torch_wood_lit>],
-	[null, null, null]]);
-////////////////////////////////////////////////////////////////
 //Lifeblood Crystal
 recipes.addShaped(<toughasnails:lifeblood_crystal>, 
 	[[<betterwithmods:material:14>, <quark:soul_bead>, <betterwithmods:material:14>],
@@ -41,9 +29,6 @@ recipes.addShaped(<minecraft:dragon_egg>,
 	[<quark:enderdragon_scale>, <ore:egg>, <quark:enderdragon_scale>],
 	[null, <quark:enderdragon_scale>, null]]);
 ///////////////////////////////////////////////////////////////
-//remove Firestarter
-recipes.remove(<roots:firestarter>);
-///////////////////////////////////////////////////////////////
 //remove Pam traps
 recipes.remove(<harvestcraft:watertrap>);
 recipes.remove(<harvestcraft:groundtrap>);
@@ -61,9 +46,6 @@ recipes.addShaped(<plants2:plantball> * 4,
 ///////////////////////////////////////////////////////////////
 //remove ankh
 recipes.remove(<tombstone:tablet_of_assistance>);
-///////////////////////////////////////////////////////////////
-//uncrafting table
-recipes.remove(<twilightforest:uncrafting_table>);
 ///////////////////////////////////////////////////////////////
 //Net Fix
 recipes.remove(<waterstrainer:net>);

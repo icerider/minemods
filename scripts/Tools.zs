@@ -75,42 +75,6 @@ recipes.addShaped(<minecraft:diamond_hoe>,
 	[null, <minecraft:stick>, null],
 	[<minecraft:stick>, null, null]]);
 ////////////////////////////////////////////////////////////////
-//Steel Pickaxe
-recipes.remove(<thermalfoundation:tool.pickaxe_steel>);
-recipes.addShaped(<thermalfoundation:tool.pickaxe_steel>, 
-	[[<ore:ingotSteel>, <primal:iron_pin>, <ore:ingotSteel>],
-	[null, <minecraft:stick>, null],
-	[null, <minecraft:stick>, null]]);
-////////////////////////////////////////////////////////////////
-//Steel Axe
-recipes.remove(<thermalfoundation:tool.axe_steel>);
-recipes.addShaped(<thermalfoundation:tool.axe_steel>, 
-	[[<ore:ingotSteel>, <primal:iron_pin>, null],
-	[<ore:ingotSteel>, <minecraft:stick>, null],
-	[null, <minecraft:stick>, null]]);
-////////////////////////////////////////////////////////////////
-//Steel Shovel
-recipes.remove(<thermalfoundation:tool.shovel_steel>);
-recipes.addShaped(<thermalfoundation:tool.shovel_steel>, 
-	[[null, null, <ore:ingotSteel>],
-	[null, <primal:iron_pin>, null],
-	[<minecraft:stick>, null, null]]);
-////////////////////////////////////////////////////////////////
-//Steel Hoe
-recipes.remove(<thermalfoundation:tool.hoe_steel>);
-recipes.addShaped(<thermalfoundation:tool.hoe_steel>, 
-	[[null, <ore:ingotSteel>, <primal:iron_pin>],
-	[null, <minecraft:stick>, null],
-	[<minecraft:stick>, null, null]]);
-////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////
-//Steel Hammer
-recipes.remove(<thermalfoundation:tool.hammer_steel>);
-recipes.addShaped(<thermalfoundation:tool.hammer_steel>.withTag({RepairCost: 0, display: {Name: "cScotPlay's Hammer"}}), 
-	[[<ore:ingotSteel>, <primal:iron_pin>, <ore:ingotSteel>],
-	[<ore:ingotSteel>, <immersiveengineering:material>, <ore:ingotSteel>],
-	[null, <immersiveengineering:material>, null]]);
-////////////////////////////////////////////////////////////////
 //Wood tools
 recipes.remove(<minecraft:wooden_shovel>);
 recipes.remove(<minecraft:wooden_pickaxe>);

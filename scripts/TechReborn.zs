@@ -112,3 +112,4 @@ recipes.remove(<techreborn:bronzeleggings>);
 recipes.remove(<techreborn:bronzeboots>);
 recipes.remove(<techreborn:bronzesword>);
 ////////////////////////////////////////////////////////////////
+//mods.techreborn.blastFurnace.addRecipe(<ore:dustCopper>, null, <ore:ingotCopper>, null, 1500, 80, 16000)
