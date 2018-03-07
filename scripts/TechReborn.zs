@@ -112,4 +112,8 @@ recipes.remove(<techreborn:bronzeleggings>);
 recipes.remove(<techreborn:bronzeboots>);
 recipes.remove(<techreborn:bronzesword>);
 ////////////////////////////////////////////////////////////////
-//mods.techreborn.blastFurnace.addRecipe(<ore:dustCopper>, null, <ore:ingotCopper>, null, 1500, 80, 16000)
+mods.techreborn.blastFurnace.addRecipe(<minecraft:gold_ingot>, null, <techreborn:dust:24>, null, 80, 200, 1000)
+mods.techreborn.blastFurnace.addRecipe(<minecraft:iron_ingot>, null, <techreborn:dust:27>, null, 80, 200, 1000)
+mods.techreborn.blastFurnace.addRecipe(<techreborn:ingot:13>, null, <techreborn:dust:53>, null, 80, 200, 1000)
+mods.techreborn.blastFurnace.addRecipe(<techreborn:ingot:4>, null, <techreborn:dust:14>, null, 80, 200, 1000)
+mods.techreborn.blastFurnace.addRecipe(<techreborn:ingot:11>, null, <techreborn:dust:47>, null, 80, 200, 1000)
