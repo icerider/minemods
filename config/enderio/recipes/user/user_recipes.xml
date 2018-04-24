@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Alloy: Steel" required="false">
+    <alloying energy="10000" exp="0">
+      <input name="ingotIron"/>
+      <input name="primal:charcoal_high" amount="2"/>
+      <output name="ingotSteel"/>
+    </alloying>
+  </recipe>
+  <recipe name="Alloy: Dark Steel" required="true">
+    <alloying energy="20000" exp="0.5">
+      <input name="ingotSteel"/>
+      <input name="dustCoal"/>
+      <input name="obsidian"/>
+      <output name="ingotDarkSteel"/>
+    </alloying>
+  </recipe>
+  <recipe name="Sagmill: oreIron Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreIron" />
+      <output name="POWDER_IRON" amount="3" />
+      <output name="dustTin" chance="0.3" required="false" />
+      <output name="dustNickel" chance="0.1" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: oreGold Ore" required="true">
+    <sagmilling energy="3600">
+      <input name="oreGold" />
+      <output name="dustGold" amount="3" />
+      <output name="dustCopper" chance="0.5" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: oreCopper Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreCopper" />
+      <output name="dustCopper" amount="3" />
+      <output name="dustGold" chance="0.3" required="false" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: oreTin Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreTin" />
+      <output name="dustTin" amount="3" />
+      <output name="oredict:cobblestone" chance="0.15" />
+      <output name="dustIron" chance="0.3"/>
+    </sagmilling>
+  </recipe>
+</enderio:recipes>
