@@ -15,11 +15,14 @@ recipes.addShaped(<enderio:item_dark_steel_axe>,
      [<enderio:item_alloy_ingot:6>, <primal:lacquer_stick>, null],
      [null, <primal:lacquer_stick>, null]]);
 
-mods.betterwithmods.StokedCrucible.remove(<minecraft:iron_ingot>);
-mods.betterwithmods.StokedCrucible.remove(<forgecraft:ironball>);
-mods.betterwithmods.StokedCrucible.remove(<primal:steel_ingot>);
-mods.betterwithmods.StokedCrucible.remove(<primal:steel_ingot>);
-mods.betterwithmods.StokedCrucible.add(<forgecraft:steelball>,null, [<primal:steel_ingot>]);
+//mods.betterwithmods.Crucible.remove(<primal:steel_ingot>);
+//mods.betterwithmods.StokedCrucible.add(<forgecraft:steelball>,null, [<primal:steel_ingot>]);
+
+mods.betterwithmods.Crucible.builder()
+.buildRecipe([<primal:steel_ingot>], [<forgecraft:steelball>])
+.setHeat(2)
+.setPriority(-1)
+.build();
 
 
 mods.betterwithmods.Anvil.addShaped(<enderio:item_dark_steel_helmet>,
@@ -52,3 +55,7 @@ mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>,
     [<enderio:item_alloy_ingot:6>, null, null,null],
     [<betterwithmods:material:41>, null, null,null],
     [<betterwithmods:material:8>, null, null,null]]);
+
+mods.betterwithmods.Crucible.remove([<minecraft:iron_ingot>]);
+mods.betterwithmods.Crucible.remove([<forgecraft:ironball>]);
+mods.betterwithmods.Crucible.remove([<primal:steel_ingot>]);
