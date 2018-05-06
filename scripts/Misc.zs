@@ -1,9 +1,9 @@
 ////////////////////////////////////////////////////////////////
 //Lifeblood Crystal
-recipes.addShaped(<toughasnails:lifeblood_crystal>, 
-	[[<betterwithmods:material:14>, <quark:soul_bead>, <betterwithmods:material:14>],
-	[<quark:soul_bead>, <minecraft:nether_star>, <quark:soul_bead>],
-	[<betterwithmods:material:14>, <quark:soul_bead>, <betterwithmods:material:14>]]);
+//recipes.addShaped(<toughasnails:lifeblood_crystal>, 
+//	[[<betterwithmods:material:14>, <quark:soul_bead>, <betterwithmods:material:14>],
+//	[<quark:soul_bead>, <minecraft:nether_star>, <quark:soul_bead>],
+//	[<betterwithmods:material:14>, <quark:soul_bead>, <betterwithmods:material:14>]]);
 ///////////////////////////////////////////////////////////////
 //Water Filter
 recipes.addShaped(<toughasnails:charcoal_filter> * 3, 

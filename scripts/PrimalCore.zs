@@ -5,8 +5,8 @@ recipes.addShaped(<primal:carbonate_slack> * 4, [[<ore:toolMalletMetal>, null], 
 ////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////
 //Tannin fix
-recipes.addShapeless(<primal:tannin_bottle>, [<primal:tannin_ground>, <toughasnails:water_bottle>]);
-recipes.addShapeless(<primal:tannin_bottle>, [<primal:tannin_ground>, <toughasnails:water_bottle:1>]);
+//recipes.addShapeless(<primal:tannin_bottle>, [<primal:tannin_ground>, <toughasnails:water_bottle>]);
+//recipes.addShapeless(<primal:tannin_bottle>, [<primal:tannin_ground>, <toughasnails:water_bottle:1>]);
 ////////////////////////////////////////////////////////////////
 
 
