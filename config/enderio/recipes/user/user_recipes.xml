@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
-  <grindingball name="Flint" grinding="1.25" chance="1.25" power="0.85" durability="24000" >
+<grindingball name="Flint" grinding="1.25" chance="1.25" power="0.85" durability="24000" >
   <item name="itemFlint"/>
 </grindingball>
 
@@ -8,7 +8,7 @@
   <item name="ballDarkSteel"/>
 </grindingball>
 
-<grindingball name="Electrical Steel Ball" grinding="1.25" chance="1.00" power="0.35" durability="40000" >
+<grindingball name="Electrical Steel Ball" grinding="1.35" chance="1.00" power="0.35" durability="40000" >
   <item name="ballElectricalSteel"/>
 </grindingball>
 
@@ -20,19 +20,19 @@
   <item name="ballVibrantAlloy"/>
 </grindingball>
 
-<grindingball name="Redstone Alloy Ball" grinding="1.0" chance="1.00" power="0.6" durability="30000" >
+<grindingball name="Redstone Alloy Ball" grinding="1.25" chance="1.00" power="0.6" durability="30000" >
   <item name="ballRedstoneAlloy"/>
 </grindingball>
 
-<grindingball name="Conductive Iron Ball" grinding="1.0" chance="1.00" power="0.5" durability="40000" >
+<grindingball name="Conductive Iron Ball" grinding="1.25" chance="1.00" power="0.5" durability="40000" >
   <item name="ballConductiveIron"/>
 </grindingball>
 
-<grindingball name="Pulsating Iron Ball" grinding="1.0" chance="2.00" power="1.0" durability="100000" >
+<grindingball name="Pulsating Iron Ball" grinding="1.25" chance="2.00" power="1.0" durability="100000" >
   <item name="ballPulsatingIron"/>
 </grindingball>
 
-<grindingball name="Soularium Ball" grinding="1.25" chance="2.5" power="0.85" durability="80000" >
+<grindingball name="Soularium Ball" grinding="1.35" chance="2.5" power="0.85" durability="80000" >
   <item name="ballSoularium"/>
 </grindingball>
 
