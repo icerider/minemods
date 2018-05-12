@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <grindingball name="Flint" grinding="1.25" chance="1.25" power="0.85" durability="24000" >
+  <item name="itemFlint"/>
+</grindingball>
+
+<grindingball name="Dark Steel Ball" grinding="1.6" chance="2.00" power="0.7" durability="125000" >
+  <item name="ballDarkSteel"/>
+</grindingball>
+
+<grindingball name="Electrical Steel Ball" grinding="1.25" chance="1.00" power="0.35" durability="40000" >
+  <item name="ballElectricalSteel"/>
+</grindingball>
+
+<grindingball name="Energetic Alloy Ball" grinding="1.7" chance="1.1" power="1.1" durability="60000" >
+  <item name="ballEnergeticAlloy"/>
+</grindingball>
+
+<grindingball name="Vibrant Alloy Ball" grinding="1.85" chance="1.35" power="1.35" durability="80000" >
+  <item name="ballVibrantAlloy"/>
+</grindingball>
+
+<grindingball name="Redstone Alloy Ball" grinding="1.0" chance="1.00" power="0.6" durability="30000" >
+  <item name="ballRedstoneAlloy"/>
+</grindingball>
+
+<grindingball name="Conductive Iron Ball" grinding="1.0" chance="1.00" power="0.5" durability="40000" >
+  <item name="ballConductiveIron"/>
+</grindingball>
+
+<grindingball name="Pulsating Iron Ball" grinding="1.0" chance="2.00" power="1.0" durability="100000" >
+  <item name="ballPulsatingIron"/>
+</grindingball>
+
+<grindingball name="Soularium Ball" grinding="1.25" chance="2.5" power="0.85" durability="80000" >
+  <item name="ballSoularium"/>
+</grindingball>
+
+<grindingball name="End Steel Ball" grinding="1.6" chance="2.2" power="0.6" durability="65000" >
+  <item name="ballEndSteel"/>
+</grindingball>
+
   <recipe name="Alloy: Steel" required="false">
     <alloying energy="10000" exp="0">
       <input name="ingotIron"/>
@@ -18,7 +58,7 @@
   <recipe name="Sagmill: oreIron Ore" required="true">
     <sagmilling energy="3600">
       <input name="oreIron" />
-      <output name="POWDER_IRON" amount="3" />
+      <output name="POWDER_IRON" amount="4" />
       <output name="dustTin" chance="0.3" required="false" />
       <output name="dustNickel" chance="0.1" required="false" />
       <output name="oredict:cobblestone" chance="0.15" />
@@ -27,7 +67,7 @@
   <recipe name="Sagmill: oreGold Ore" required="true">
     <sagmilling energy="3600">
       <input name="oreGold" />
-      <output name="dustGold" amount="3" />
+      <output name="dustGold" amount="4" />
       <output name="dustCopper" chance="0.5" required="false" />
       <output name="oredict:cobblestone" chance="0.15" />
     </sagmilling>
@@ -35,7 +75,7 @@
   <recipe name="Sagmill: oreCopper Ore" required="false">
     <sagmilling energy="3600">
       <input name="oreCopper" />
-      <output name="dustCopper" amount="3" />
+      <output name="dustCopper" amount="4" />
       <output name="dustGold" chance="0.3" required="false" />
       <output name="oredict:cobblestone" chance="0.15" />
     </sagmilling>
@@ -43,7 +83,7 @@
   <recipe name="Sagmill: oreTin Ore" required="false">
     <sagmilling energy="3600">
       <input name="oreTin" />
-      <output name="dustTin" amount="3" />
+      <output name="dustTin" amount="4" />
       <output name="oredict:cobblestone" chance="0.15" />
       <output name="dustIron" chance="0.3"/>
     </sagmilling>
