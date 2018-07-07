@@ -37,22 +37,8 @@ recipes.remove(<harvestcraft:veggiebaititem>);
 recipes.remove(<harvestcraft:fruitbaititem>);
 recipes.remove(<harvestcraft:fishtrapbaititem>);
 ///////////////////////////////////////////////////////////////
-//Plant Ball
-recipes.remove(<plants2:plantball>);
-recipes.addShaped(<plants2:plantball> * 4, 
-	[[<ore:plant>, <ore:plant>, <ore:plant>],
-	[<ore:plant>, <minecraft:dye:15>, <ore:plant>],
-	[<ore:plant>, <ore:plant>, <ore:plant>]]);
-///////////////////////////////////////////////////////////////
 //remove ankh
 recipes.remove(<tombstone:tablet_of_assistance>);
-///////////////////////////////////////////////////////////////
-//Net Fix
-recipes.remove(<waterstrainer:net>);
-recipes.addShaped(<waterstrainer:net>, 
-	[[null, <minecraft:string>, null],
-	[<minecraft:string>, null, <minecraft:string>],
-	[null, <minecraft:string>, null]]);
 ///////////////////////////////////////////////////////////////
 //Silk Cordage
 recipes.remove(<primal:silk_cordage>);

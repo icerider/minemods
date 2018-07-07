@@ -24,16 +24,9 @@ recipes.addShaped(<betterwithmods:raw_kebab> * 3, [[<minecraft:brown_mushroom>, 
 recipes.addShaped(<betterwithmods:raw_kebab> * 3, [[<minecraft:red_mushroom>, <minecraft:carrot>], [<ore:listAllmeatraw>, <minecraft:stick>]]);
 ////////////////////////////////////////////////////////////////
 //MacGManina Jucie
-recipes.addShapeless(<toughasnails:fruit_juice:1>.withTag({RepairCost: 0, display: {Name: "MacGMania's Huckleberry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:huckleberry>]);
 ////////////////////////////////////////////////////////////////
 //TAN Juices Fix
 recipes.remove(<toughasnails:fruit_juice>);
-recipes.addShapeless(<toughasnails:fruit_juice>, [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:apple>]);
-recipes.addShapeless(<toughasnails:fruit_juice>.withTag({RepairCost: 0, display: {Name: "Berry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:blackberry>]);
-recipes.addShapeless(<toughasnails:fruit_juice>.withTag({RepairCost: 0, display: {Name: "Berry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:blueberry>]);
-recipes.addShapeless(<toughasnails:fruit_juice>.withTag({RepairCost: 0, display: {Name: "Berry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:raspberry>]);
-recipes.addShapeless(<toughasnails:fruit_juice>.withTag({RepairCost: 0, display: {Name: "Berry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:rubus_o>]);
-recipes.addShapeless(<toughasnails:fruit_juice>.withTag({RepairCost: 0, display: {Name: "Berry Juice"}}), [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <plants2:rubus_p>]);
 
 recipes.remove(<toughasnails:fruit_juice:1>);
 recipes.addShapeless(<toughasnails:fruit_juice:1>, [<minecraft:sugar>, <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:beetroot>]);
@@ -72,21 +65,9 @@ recipes.addShapeless(<toughasnails:canteen:2>, [<toughasnails:charcoal_filter:*>
 ////////////////////////////////////////////////////////////////
 //rustic
 
-<ore:listAllfruit>.add(<plants2:blackberry>);
-<ore:listAllfruit>.add(<plants2:blueberry>);
-<ore:listAllfruit>.add(<plants2:raspberry>);
-<ore:listAllfruit>.add(<plants2:huckleberry>);
-<ore:listAllfruit>.add(<plants2:rubus_o>);
-<ore:listAllfruit>.add(<plants2:rubus_p>);
 <ore:listAllfruit>.add(<minecraft:melon>);
 <ore:listAllfruit>.add(<rustic:wildberries>);
 
-<ore:listAllberry>.add(<plants2:blackberry>);
-<ore:listAllberry>.add(<plants2:blueberry>);
-<ore:listAllberry>.add(<plants2:raspberry>);
-<ore:listAllberry>.add(<plants2:huckleberry>);
-<ore:listAllberry>.add(<plants2:rubus_o>);
-<ore:listAllberry>.add(<plants2:rubus_p>);
 
 mods.rustic.CrushingTub.addRecipe(<liquid:grapejuice> * 250, null, <harvestcraft:grapeitem>);
 mods.rustic.CrushingTub.addRecipe(<liquid:honey> * 250, null, <harvestcraft:honeycombitem>);
