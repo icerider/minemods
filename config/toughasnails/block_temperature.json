@@ -42,5 +42,26 @@
       "properties": {}
     },
     "temperature": 17.0
+  },
+  {
+    "state": {
+      "block": "forgecraft:forge_brick",
+      "properties": {
+        "active": "true",
+        "facing": "*"
+      }
+    },
+    "temperature": 10.0
+  },
+  {
+    "state": {
+      "block": "forgecraft:bloomery_brick",
+      "properties": {
+        "active": "true",
+        "facing": "*"
+      }
+    },
+    "temperature": 10.0
   }
+
 ]
