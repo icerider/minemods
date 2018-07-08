@@ -49,3 +49,8 @@ recipes.addShaped(<rustic:ironberries> * 8,
 	[[<rustic:wildberries>, <rustic:wildberries>, <rustic:wildberries>],
 	[<rustic:wildberries>, <minecraft:iron_nugget>, <rustic:wildberries>],
 	[<rustic:wildberries>, <rustic:wildberries>, <rustic:wildberries>]]);
+
+
+///////////////////////////////////////////////////////////////////
+// Remove dark teleporter
+recipes.remove(<extrautils2:teleporter:1>);
