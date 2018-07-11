@@ -80,3 +80,29 @@ recipes.addShaped(<minecraft:piston>,
     [<ore:cobblestone>,<extrautils2:ingredients:1>,<ore:cobblestone>],
     [<ore:cobblestone>,<betterwithmods:material:34>,<ore:cobblestone>]]);
     
+
+recipes.remove(<enderio:item_material:52>);
+recipes.addShaped(<enderio:item_material:52>,
+    [[<enderio:item_material:32>,<basemetals:mercury_ingot>,<enderio:item_material:49>],
+     [<basemetals:mercury_ingot>,<enderio:item_material:50>,<basemetals:mercury_ingot>],
+     [<enderio:item_material:49>,<basemetals:mercury_ingot>,<enderio:item_material:32>]]);
+
+recipes.remove(<enderio:item_basic_capacitor:2>);
+recipes.addShaped(<enderio:item_basic_capacitor:2>,
+    [[null, <enderio:item_alloy_ingot:2>, null],
+    [<enderio:item_basic_capacitor:1>, <aether_legacy:enchanted_gravitite>, <enderio:item_basic_capacitor:1>],
+    [null, <enderio:item_alloy_ingot:2>, null]]);
+
+recipes.remove(<enderio:item_basic_capacitor:1>);
+recipes.addShaped(<enderio:item_basic_capacitor:1>,
+    [[null, <enderio:item_alloy_ingot:1>, null],
+     [<enderio:item_basic_capacitor>, <darkutils:material>, <enderio:item_basic_capacitor>],
+    [null, <enderio:item_alloy_ingot:1>, null]]);
+
+//<astralsorcery:itemusabledust:1>
+
+recipes.addShaped(<beneath:teleporterbeneath>,
+    [[<minecraft:nether_brick>, <astralsorcery:itemusabledust:1>, <enderio:item_material:15>],
+    [<bloodmagic:blood_rune>,<aether_legacy:enchanted_gravitite>,<bloodmagic:blood_rune>],
+    [<enderio:item_material:15>, <astralsorcery:itemusabledust:1>, <minecraft:nether_brick>]]);
+
